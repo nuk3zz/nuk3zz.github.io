@@ -1,1 +1,153 @@
-Hello World!
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Blogs: Korean Drama Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>K-Blogs: Your Korean Drama Hub</h1>
+    </header>
+    <nav class="navbar">
+      <img src="img/logo.png" alt="K-Blogs Logo" class="logo">
+      <a href="#kdrama" class="nav-button">
+          <img src="img/kdrama.png" alt="Kdrama" class="nav-icon" style="width: 150px; height: 50px;">
+      </a>
+      <a href="#kpop" class="nav-button">
+          <img src="img/kpop.png" alt="Kpop" class="nav-icon" style="width: 150px; height: 50px;">
+      </a>
+      <a href="#kfood" class="nav-button">
+          <img src="img/kfood.png" alt="Kfood" class="nav-icon" style="width: 150px; height: 50px;">
+      </a>
+      <a href="#kbeauty" class="nav-button">
+          <img src="img/kbeauty.png" alt="Kbeauty" class="nav-icon" style="width: 150px; height: 50px;">
+      </a>
+  </nav>
+    <div class="container">
+        <section class="latest-updates">
+            <h2>Latest Updates</h2>
+            <article class="post">
+                <img src="img/latest-drama.png" alt="Latest Drama">
+                <h3>'Secret Love' star Park Shin-hye moved to tears at his co-star's farewell party.</h3>
+                <p>Stay tuned for the latest release of 'Secret Love'. It promises to be an exciting series with a stellar cast...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="post">
+                <img src="img/casting-announcement.png" alt="Casting Announcement">
+                <h3>'Crash Landing on You' After only two episodes, This K-Drama is already at</h3>
+                <p>We're thrilled to announce that Lee Jong-suk will be starring in an upcoming drama...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </section>
+        <section class="profiles">
+            <h2>Actor and Actress Profiles</h2>
+            <div class="profile-section">
+                <div class="profile">
+                    <img src="img/actor-profile.png" alt="Actor Profile">
+                    <h3>Lee Min-ho</h3>
+                    <p>Learn more about Lee Min-ho, their career, filmography, and upcoming projects...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="profile">
+                    <img src="img/actress-profile.png" alt="Actress Profile">
+                    <h3>Song Hye-kyo</h3>
+                    <p>Get to know Song Hye-kyo, their achievements, notable roles, and future plans...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="ongoing-episodes">
+            <h2>Ongoing EPs</h2>
+            <div class="episodes-section">
+                <button class="scroll-button scroll-button-left" onclick="scrollLeft('episodes-section')">←</button>
+                <div class="episode">
+                    <img src="img/episode1.png" alt="Episode 1">
+                    <h3>'Goblin' Episode 1</h3>
+                    <p>Released on [Date]. Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="episode">
+                    <img src="img/episode2.png" alt="Episode 2">
+                    <h3>'Descendants of the Sun' Episode 2</h3>
+                    <p>Released on [Date]. Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="episode">
+                    <img src="img/episode3.png" alt="Episode 3">
+                    <h3>'It's Okay to Not Be Okay' Episode 3</h3>
+                    <p>Released on [Date]. Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="episode">
+                    <img src="img/episode4.png" alt="Episode 4">
+                    <h3>'My Love from the Star' Episode 4</h3>
+                    <p>Released on [Date]. Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="episode">
+                    <img src="img/episode5.png" alt="Episode 5">
+                    <h3>'Strong Woman Do Bong-soon' Episode 5</h3>
+                    <p>Released on [Date]. Synopsis: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <button class="scroll-button scroll-button-right" onclick="scrollRight('episodes-section')">→</button>
+            </div>
+        </section>
+        <section class="watch-now">
+            <h2>Watch Now</h2>
+            <div class="watch-now-section">
+                <div class="watch-item">
+                    <img src="img/watch1.png" alt="Watch 1">
+                    <h3>Top 10 Comedy Kdramas to Watch in 2024</h3>
+                    <p>Discover the funniest Korean dramas of the year that will make you laugh non-stop...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="watch-item">
+                    <img src="img/watch2.png" alt="Watch 2">
+                    <h3>Best Romantic Kdramas of All Time</h3>
+                    <p>Explore the most heartwarming and romantic Korean dramas that will touch your soul...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="watch-item">
+                    <img src="img/watch3.png" alt="Watch 3">
+                    <h3>Must-Watch Thriller Kdramas</h3>
+                    <p>Dive into the intense world of Korean thriller dramas that will keep you on the edge of your seat...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="watch-item">
+                    <img src="img/watch4.png" alt="Watch 4">
+                    <h3>Hidden Gem Kdramas You Didn't Know About</h3>
+                    <p>Uncover underrated Korean dramas that deserve more recognition for their unique stories...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/messenger.png" alt="Messenger"></a>
+            <a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+            <a href="#"><img src="img/pinterest.png" alt="Pinterest"></a>
+        </div>
+        <p>&copy; 28141 P T T W Siriwardhana | Multimedia 22.2</p>
+    </footer>
+    <script>
+        function scrollLeft(sectionClass) {
+            const section = document.querySelector(`.${sectionClass}`);
+            section.scrollLeft -= 250;
+        }
+        
+        function scrollRight(sectionClass) {
+            const section = document.querySelector(`.${sectionClass}`);
+            section.scrollLeft += 250;
+        }
+    </script>
+</body>
+</html>
