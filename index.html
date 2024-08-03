@@ -1,54 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nerd Tips Blo</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Nerd Tips BloG</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#0E0E0E">
+    <meta name="description" content="Index page">
+    <meta name="keywords" content="index, page">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/nerd_loading_circle.png">
+    <link href="assets/css/style.css?v=2.0" rel="stylesheet">
+    <title>NerdTips - Daily Tech Tips</title>
+  </head>
+  <body>
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center"><img class="mb-10" src="assets/imgs/nerd_loading_circle.png" alt="NerdTips">
+            <div class="preloader-dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header sticky-bar bg-gray-900">
+      <div class="container">
+        <div class="main-header">
+          <div class="header-logo"><a class="d-flex" href="index.html"><img class="logo-night" alt="NerdTips" src="assets/imgs/logo_with_slogan.png"><img class="d-none logo-day" alt="NerdTips" src="assets/imgs/logo_with_slogan_light.png"></a></div>
+          <div class="header-nav">
+            <nav class="nav-main-menu d-none d-xl-block">
+              <ul class="main-menu">
+                <li><a class="color-gray-500" href="index.html">Home</a></li>
+                <li><a class="color-gray-500" href="about.html">About Me</a></li>
+                <li><a class="color-gray-500" href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
+          </div>
+            <div class="switch-button">
+              <div class="form-check form-switch">
+                <input class="form-check-input" id="flexSwitchCheckChecked" type="checkbox" role="switch" checked="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <nav>
-        <a href="#windows">Windows</a>
-        <a href="#android">Android</a>
-        <a href="#ios">iOS</a>
-    </nav>
-    <main>
-        <article id="windows">
-            <img src="img/windows.png" alt="Windows 11 logo">
-            <h2>Windows 11 Productivity Hacks</h2>
-            <p>Discover five lesser-known features in Windows 11 that can boost your productivity. Learn about snap layouts, virtual desktops, voice typing, and more.</p>
-            <a href="#" class="read-more">Read More</a>
-        </article>
-        <article id="android">
-            <img src="img/android.png" alt="Android 13 logo">
-            <h2>Hidden Android 13 Features</h2>
-            <p>Explore the latest Android 13 update and uncover hidden gems that can enhance your mobile experience. From improved privacy controls to new customization options, we've got you covered.</p>
-            <a href="#" class="read-more">Read More</a>
-        </article>
-        <article id="ios">
-            <img src="img/ios.png" alt="iOS 16 logo">
-            <h2>iOS 16 Tips and Tricks</h2>
-            <p>Make the most of your iPhone with these iOS 16 tips and tricks. Learn how to customize your lock screen, use the new editing features in Messages, and take advantage of Focus modes.</p>
-            <a href="#" class="read-more">Read More</a>
-        </article>
-        <article>
-            <img src="img/ai.png" alt="AI concept image">
-            <h2>The Future of AI in Consumer Tech</h2>
-            <p>Dive into the exciting world of artificial intelligence and its impact on consumer technology. From smart home devices to personalized digital assistants, explore how AI is shaping our daily lives.</p>
-            <a href="#" class="read-more">Read More</a>
-        </article>
-        <article>
-            <img src="img/cybersecurity.png" alt="Cybersecurity concept image">
-            <h2>Cybersecurity Best Practices for 2024</h2>
-            <p>Stay safe online with our updated guide to cybersecurity best practices. Learn about the latest threats and how to protect your devices and personal information in an increasingly connected world.</p>
-            <a href="#" class="read-more">Read More</a>
-        </article>
+    <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar bg-gray-900">
+      <div class="mobile-header-wrapper-inner">
+        <div class="mobile-header-content-area">
+          <div class="mobile-logo border-gray-800"><a class="d-flex" href="index.html"><img class="logo-night" alt="GenZ" src="assets/imgs/logo_with_slogan.png"><img class="d-none logo-day" alt="GenZ" src="assets/imgs/logo_with_slogan_light.png"></a></div>
+          <div class="perfect-scroll">
+            <div class="mobile-menu-wrap mobile-header-border">
+              <nav class="mt-15">
+                <ul class="mobile-menu font-heading">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Me</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            
+            <div class="site-copyright color-gray-400 mt-30">Copyright 2024 &copy; NerdTips / M B I Sampath <br>Multimedia 22.2 <a href="https://www.behance.net/nuk3zz" target="_blank">&nbsp;</a></div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <main class="main">
+      <div class="cover-home1">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10 col-lg-12">
+              <div class="banner banner-home2">
+                <div class="text-center">
+                  <h6 class="color-gray-600">Hello there, welcome to </h6>
+                  <h1 class="color-white">Nerdy<span class="color-linear"> Tech Insights,</span>
+                    <br class="d-none d-lg-block">Always
+                    <span class="color-linear">Updated</span>
+                  </h1>
+                </div>
+                <div class="text-center mt-50">
+                  <ul class="list-tags-col-5 mb-50 text-center">
+                    <li>
+                      <div class="card-style-2 hover-up hover-neon wow animate__animated animate__fadeInUp" data-wow-delay="0s">
+                        <div class="card-image"><img src="assets/imgs/cat1.png" alt="NerdTips"></div>
+                        <div class="card-info">Windows</div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card-style-2 hover-up hover-neon wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="card-image"><img src="assets/imgs/cat2.png" alt="NerdTips"></div>
+                        <div class="card-info"> Android</div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card-style-2 hover-up hover-neon wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                        <div class="card-image"><img src="assets/imgs/cat3.png" alt="NerdTips"></div>
+                        <div class="card-info">iOS</div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card-style-2 hover-up hover-neon wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                        <div class="card-image"><img src="assets/imgs/cat4.png" alt="NerdTips"></div>
+                        <div class="card-info">Linux</div>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-70">
+                <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay="0">
+                  <div class="card-blog-1 hover-up">
+                    <div class="card-image mb-20"><a class="post-type" href="article1.html"></a><a href="article1.html"><img src="assets/imgs/news3.png" alt="NerdTips"></a></div>
+                    <div class="card-info">
+                      <div class="row">
+                        <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">3 mins read</span></div>
+                      </div><a href="article1.html">
+                        <h4 class="color-white mt-20">Windows 11: Top Hidden Features You Didn’t Know About</h4></a>
+                      <div class="row align-items-center mt-25">
+                        <div class="col-7">
+                          <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                            <div class="author-info">
+                              <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article1.html"><span>Read more</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay="0">
+                  <div class="card-blog-1 hover-up">
+                    <div class="card-image mb-20"><a class="post-type" href="article2.html"></a><a href="article2.html"><img src="assets/imgs/news1.png" alt="NerdTips"></a></div>
+                    <div class="card-info">
+                      <div class="row">
+                        <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">8 mins read</span></div>
+                      </div><a href="article2.html">
+                        <h4 class="color-white mt-20">Android 14 Beta: What’s New and How to Install It</h4></a>
+                      <div class="row align-items-center mt-25">
+                        <div class="col-7">
+                          <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                            <div class="author-info">
+                              <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article2.html"><span>Read more</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay="0">
+                  <div class="card-blog-1 hover-up">
+                    <div class="card-image mb-20"><a class="post-type" href="article3.html"></a><a href="article3.html"><img src="assets/imgs/news2.png" alt="NerdTips"></a></div>
+                    <div class="card-info">
+                      <div class="row">
+                        <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">12 mins read</span></div>
+                      </div><a href="article3.html">
+                        <h4 class="color-white mt-20">iOS 17: Boost Your iPhone Performance with These Tips</h4></a>
+                      <div class="row align-items-center mt-25">
+                        <div class="col-7">
+                          <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                            <div class="author-info">
+                              <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article3.html"><span>Read more</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay="0">
+                  <div class="card-blog-1 hover-up">
+                    <div class="card-image mb-20"><a class="post-type" href="article4.html"></a><a href="article4.html"><img src="assets/imgs/news4.png" alt="NerdTips"></a></div>
+                    <div class="card-info">
+                      <div class="row">
+                        <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">25 mins read</span></div>
+                      </div><a href="article4.html">
+                        <h4 class="color-white mt-20">Linux Mint 21: A Comprehensive Guide to the Latest Update</h4></a>
+                      <div class="row align-items-center mt-25">
+                        <div class="col-7">
+                          <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                            <div class="author-info">
+                              <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article4.html"><span>Read more</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row mt-70">
+                <div class="col-lg-12 mb-50">
+                  <h2 class="color-linear d-inline-block mb-10">Recent posts</h2>
+                  <p class="text-lg color-gray-500">Don't miss the latest trends</p>
+                </div>
+                <div class="col-lg-8">
+                  <div class="box-list-posts">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="card-blog-1 hover-up wow animate__animated animate__fadeIn">
+                          <div class="card-image mb-20"><a class="post-type" href="#"></a><a href="article1.html"><img src="assets/imgs/news11.png" alt="NerdTips"></a></div>
+                          <div class="card-info">
+                            <div class="row">
+                              <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">3 mins read</span></div>
+                            </div><a href="article1.html">
+                              <h5 class="color-gray-50 mt-20">Mastering Multitasking with These Shortcuts</h5></a>
+                            <div class="row align-items-center mt-25">
+                              <div class="col-7">
+                                <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                                  <div class="author-info">
+                                    <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article1.html"><span>Read more</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-blog-1 hover-up wow animate__animated animate__fadeIn">
+                          <div class="card-image mb-20"><a class="post-type" href="#"></a><a href="article2.html"><img src="assets/imgs/news12.png" alt="NerdTips"></a></div>
+                          <div class="card-info">
+                            <div class="row">
+                              <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">3 mins read</span></div>
+                            </div><a href="article2.html">
+                              <h5 class="color-gray-50 mt-20">15 Essential Android Security</h5></a>
+                            <div class="row align-items-center mt-25">
+                              <div class="col-7">
+                                <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                                  <div class="author-info">
+                                    <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article2.html"><span>Read more</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-blog-1 hover-up wow animate__animated animate__fadeIn">
+                          <div class="card-image mb-20"><a class="post-type" href="#"></a><a href="article3.html"><img src="assets/imgs/news5.png" alt="NerdTips"></a></div>
+                          <div class="card-info">
+                            <div class="row">
+                              <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">3 mins read</span></div>
+                            </div><a href="article3.html">
+                              <h5 class="color-gray-50 mt-20">How to Maximize Your iPhone’s Security</h5></a>
+                            <div class="row align-items-center mt-25">
+                              <div class="col-7">
+                                <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                                  <div class="author-info">
+                                    <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article3.html"><span>Read more</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="card-blog-1 hover-up wow animate__animated animate__fadeIn">
+                          <div class="card-image mb-20"><a class="post-type" href="#"></a><a href="article4.html"><img src="assets/imgs/news6.png" alt="NerdTips"></a></div>
+                          <div class="card-info">
+                            <div class="row">
+                              <div class="col-5 text-end"><span class="color-gray-700 text-sm timeread">3 mins read</span></div>
+                            </div><a href="article4.html">
+                              <h5 class="color-gray-50 mt-20">Commands Every Developer Should Know</h5></a>
+                            <div class="row align-items-center mt-25">
+                              <div class="col-7">
+                                <div class="box-author"><img src="assets/imgs/author_isuru.png" alt="NerdTips">
+                                  <div class="author-info">
+                                    <h6 class="color-gray-700">Sampath</h6><span class="color-gray-700 text-sm">31 July</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-5 text-end"><a class="readmore color-gray-500 text-sm" href="article5.html"><span>Read more</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                    </div>
+                    <nav class="mb-50">
+                      <ul class="pagination">
+                        <li class="page-item wow animate__animated animate__fadeIn" data-wow-delay=".5s"><a class="page-link page-next" href="#"><i class="fi-rr-arrow-small-right"></i></a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sidebar"> 
+                    <div class="box-sidebar bg-gray-850 border-gray-800">
+                      <div class="head-sidebar wow animate__animated animate__fadeIn">
+                        <h5 class="line-bottom">Popular Posts</h5>
+                      </div>
+                      <div class="content-sidebar">
+                        <div class="list-posts">
+                          <div class="item-post wow animate__animated animate__fadeIn">
+                            <div class="image-post"><a href="article1.html"><img src="assets/imgs/subimage1.png" alt="NerdTips"></a></div>
+                            <div class="info-post border-gray-800"><a href="article1.html">
+                                <h6 class="color-white">Windows 11 vs. Windows 10</h6></a><span class="color-gray-700">15 mins read</span>
+                              <ul class="d-inline-block">
+                                <li class="color-gray-700">15 July</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="item-post wow animate__animated animate__fadeIn">
+                            <div class="image-post"><a href="article1.html"><img src="assets/imgs/subimage2.png" alt="NerdTips"></a></div>
+                            <div class="info-post border-gray-800"><a href="article1.html">
+                                <h6 class="color-white">X Elite vs M3 Performance</h6></a><span class="color-gray-700">15 mins read</span>
+                              <ul class="d-inline-block">
+                                <li class="color-gray-700">15 July</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="item-post wow animate__animated animate__fadeIn">
+                            <div class="image-post"><a href="article1.html"><img src="assets/imgs/subimage3.png" alt="NerdTips"></a></div>
+                            <div class="info-post border-gray-800"><a href="article1.html">
+                                <h6 class="color-white">Best Android Apps for Productivity</h6></a><span class="color-gray-700">15 mins read</span>
+                              <ul class="d-inline-block">
+                                <li class="color-gray-700">15 July</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="item-post wow animate__animated animate__fadeIn">
+                            <div class="image-post"><a href="article1.html"><img src="assets/imgs/subimage4.png" alt="NerdTips"></a></div>
+                            <div class="info-post border-gray-800"><a href="article1.html">
+                                <h6 class="color-white">How to Make Your iPhone Last Longer</h6></a><span class="color-gray-700">15 mins read</span>
+                              <ul class="d-inline-block">
+                                <li class="color-gray-700">15 July</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="item-post wow animate__animated animate__fadeIn">
+                            <div class="image-post"><a href="article1.html"><img src="assets/imgs/subimage5.png" alt="NerdTips"></a></div>
+                            <div class="info-post border-gray-800"><a href="article1.html">
+                                <h6 class="color-white">Top Linux Distributions for Developers</h6></a><span class="color-gray-700">15 mins read</span>
+                              <ul class="d-inline-block">
+                                <li class="color-gray-700">15 July</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Nerd Tips Blog. All rights reserved.</p>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-1 bg-gray-850 border-gray-800">
+          <div class="row">
+            <div class="col-lg-4 mb-30"><a class="wow animate__animated animate__fadeInUp" href="index.html"><img class="logo-night" src="assets/imgs/logo_with_slogan.png" alt="NerdTips"><img class="d-none logo-day" alt="NerdTips" src="assets/imgs/logo_with_slogan_light.png"></a>
+              <p class="mb-20 mt-20 text-sm color-gray-500 wow animate__animated animate__fadeInUp">NerdTips is your go-to hub for the latest tech news, tips, and how-tos, covering everything from Windows and Android to iOS and Linux. </p>
+              <h6 class="color-white mb-5 wow animate__animated animate__fadeInUp">Student Details</h6>
+              <p class="text-sm color-gray-500 wow animate__animated animate__fadeInUp">M B I SAMPATH<br>28143 | Multimedia 22.2</p>
+            </div>
+          </div>
+          <div class="footer-bottom border-gray-800">
+            <div class="row">
+              <div class="col-lg-5 text-center text-lg-start">
+                <p class="text-base color-white wow animate__animated animate__fadeIn">© Created by<a class="copyright" href="https://www.behance.net/nuk3zz" target="_blank"> Isuru Sampath</a></p>
+              </div>
+              <div class="col-lg-7 text-center text-lg-end">
+                <div class="box-socials">
+                  <div class="d-inline-block mr-30 wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="icon-socials icon-twitter color-gray-500" href="https://twitter.com/nerdtips">Twitter</a></div>
+                  <div class="d-inline-block mr-30 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="icon-socials icon-linked color-gray-500" href="https://www.linkedin.com/nerdtips">LinkedIn</a></div>
+                  <div class="d-inline-block wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="icon-socials icon-insta color-gray-500" href="https://www.instagram.com/nerdtips">Instagram</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+    <div class="progressCounter progressScroll hover-up hover-neon-2">
+      <div class="progressScroll-border">
+        <div class="progressScroll-circle"><span class="progressScroll-text"><i class="fi-rr-arrow-small-up"></i></span></div>
+      </div>
+    </div>
+    <script src="assets/js/vendors/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/waypoints.js"></script>
+    <script src="assets/js/vendors/wow.js"></script>
+    <script src="assets/js/vendors/text-type.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/jquery.progressScroll.min.js"></script>
+    <script src="assets/js/main.js?v=2.0"></script>
+  </body>
 </html>
